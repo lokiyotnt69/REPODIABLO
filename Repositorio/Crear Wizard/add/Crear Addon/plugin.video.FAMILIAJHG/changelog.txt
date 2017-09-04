@@ -1,0 +1,6 @@
+﻿version jhg master
+añadido canales iptv
+version update junio 2017
+añadido zona boom,area y iptv
+version JHG MASTER 3.0
+NUEVA VERSION PORTADAS,  SECCIONES 

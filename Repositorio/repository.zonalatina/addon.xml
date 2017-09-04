@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.zonalatina" name="Zona Latina Repo" version="1.1" provider-name="Johnyx">
+	<extension point="xbmc.addon.repository" name="Zona Latina Repo">
+		<info compressed="false">http://zonalat.website/Plugins/addons.xml</info>
+		<checksum>http://zonalat.website/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://zonalat.website/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Zona Latina Official Repo</summary>
+   		<description lang="en">Zona Latina Addon y Mas</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>

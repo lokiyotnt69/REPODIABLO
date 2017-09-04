@@ -1,0 +1,11 @@
+name="Kodi 16.1 Jarvis"
+url=""
+img="http://i.imgur.com/gwzOHEy.png"
+fanart="http://i.imgur.com/gwzOHEy.png"
+description="Instalador Kodi16"
+
+name="Kodi 17.3 Krypton"
+url=""
+img="http://i.imgur.com/gwzOHEy.png"
+fanart="http://i.imgur.com/gwzOHEy.png"
+description="Instalador Kodi 17.3"
