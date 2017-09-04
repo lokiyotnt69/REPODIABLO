@@ -1,12 +1,12 @@
-<?xml version="1.0.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.JHGMASTER" name="[COLOR red]JHGMASTER[/COLOR] Repo" version="1.0.0" provider-name="Yo Mismo">
+<?xml version="2.0.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.JHGMASTER" name="[COLOR red]JHGMASTER[/COLOR] Repo" version="2.0.0" provider-name="JHGMASTER">
     <extension point="xbmc.addon.repository" name="JHGMASTER">
         <info>https://raw.githubusercontent.com/lokiyotnt69/REPODIABLO/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/lokiyotnt69/REPODIABLO/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/lokiyotnt69/master/Repositorio/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para Mi</summary>
+        <summary>Repositorio para Mi gente</summary>
         <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>
