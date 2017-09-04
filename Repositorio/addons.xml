@@ -140,10 +140,10 @@ enlaces estan colocado de manera libre en interNET.
   </extension>
 </addon>
 
-<addon id="plugin.video.SummerTV"
-       name="[COLOR red]SummerTV[/COLOR]"
-       version="0.2"
-       provider-name="Summer">
+<addon id="plugin.video.supermospytv"
+       name="supermospytv"
+       version="0.0.1"
+       provider-name="supermospytv">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -151,20 +151,23 @@ enlaces estan colocado de manera libre en interNET.
     <import addon="script.module.beautifulsoup4" />
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
      <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+
+
   <extension point="xbmc.addon.metadata">
-   <summary>Sursum Versus</summary>
-    <description>
-	Este addon se mantiene gracias a donaciones voluntarias
-      </description>
+    <summary>supermospytv  - Television - Peliculas - Series</summary>
+    <description>No se dejen engañar este addon es gratuito
+    </description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -181,6 +184,63 @@ enlaces estan colocado de manera libre en interNET.
         <disclaimer></disclaimer>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.3" provider-name="Alfa Addon">
+    <extension point="xbmc.addon.repository" name="Alfa-Addon Repo">
+        <info>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/alfa-addon/alfa-repo/raw/master</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para Alfa-Addon</summary>
+        <description></description>
+        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.mitvspain" name="MiTv Repository" version="1.0.0" provider-name="Marce - MiTv">
+	<extension point="xbmc.addon.repository" name="MiTv Repository">
+		<info compressed="false">http://raw.github.com/MiTvSpain/repository.mitvspain/master/addons.xml</info>
+		<checksum>http://raw.github.com/MiTvSpain/repository.mitvspain/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/MiTvSpain/repository.mitvspain/master/repo/</datadir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Actualizaciones Kodi addons</summary>
+		<description>Repositorio con todo lo necesario para instalar sin problemas Marce - MiTv</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.pancas" name="Pancas repository" version="1.0.7" provider-name="Pancas">
+	<extension point="xbmc.addon.repository" name="Pancas Add-on Repository">
+		<info compressed="false">http://raw.github.com/Sup3Roque/Pancas/master/addons.xml</info>
+		<checksum>http://raw.github.com/Sup3Roque/Pancas/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/Sup3Roque/Pancas/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Pancas Repo</summary>
+		<description>TV para todos sempre ao melhor preço</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.zonalatina" name="Zona Latina Repo" version="1.1" provider-name="Johnyx">
+	<extension point="xbmc.addon.repository" name="Zona Latina Repo">
+		<info compressed="false">http://zonalat.website/Plugins/addons.xml</info>
+		<checksum>http://zonalat.website/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://zonalat.website/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Zona Latina Official Repo</summary>
+   		<description lang="en">Zona Latina Addon y Mas</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="script.module.liveresolver"
